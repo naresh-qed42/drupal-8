@@ -1,0 +1,14 @@
+uuid: 9df517de-0d20-4149-b4e6-1a116daf6bc3
+name: admin
+mail: naresh.bavaskar@qed42.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE
