@@ -1,0 +1,22 @@
+<?php
+function testing_update_8801() {
+    $default_content = [
+        // Keyed by entity type.
+        'block_content' => [
+            // Then by UUID.
+            '0f0f61c9-4e38-47bc-9347-8d236f326057' => [
+                'info' => 'Testing',
+                'type' => 'basic',
+                'body' => '<p>testing</p>',
+            ],
+        ],
+    ];
+
+    foreach ($default_content as $entity_type_id => $items) {
+        $storage = \Drupal::entityTypeManager()->getStorage($entity_type_id);
+        foreach ($items as $uuid => $item) {
+            $entity = $storage->create($item + ['uuid' => $uuid]);
+            $entity->save();
+        }
+    }
+}
