@@ -1,0 +1,16 @@
+uuid: baf22022-9291-4895-9164-257f65328cdd
+langcode: en
+status: true
+dependencies: {  }
+id: prod_split
+label: 'Prod split'
+description: ''
+folder: ../config/prod-split
+module:
+  http_auth: 0
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true
+weight: 0
