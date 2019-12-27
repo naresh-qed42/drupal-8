@@ -1,13 +1,14 @@
-uuid: aa2e84a2-64dd-4dd1-98be-b6fc04fa0c9a
+uuid: a2c9bf83-d06f-4a83-86a5-1e70d9817866
 langcode: en
 status: true
 dependencies: {  }
-id: dev_split
-label: 'Dev split'
+id: local_split
+label: 'local split'
 description: ''
-folder: ../config/dev-split
+folder: ../config/local-split
 module:
-  http_auth: 0
+  devel: 0
+  kint: 0
 theme: {  }
 blacklist: {  }
 graylist: {  }
